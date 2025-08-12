@@ -2,8 +2,8 @@ steps:
   - label: ":nx: Run many"
     command: |
       npm install
-      npx nx run-many -t lint test build
 
+      npx nx run-many -t lint test build
       npx nx affected -t lint build test
 
       echo $$NX_BASE
