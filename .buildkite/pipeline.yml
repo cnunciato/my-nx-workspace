@@ -3,3 +3,8 @@ steps:
     command: |
       npm install
       npx nx run-many -t lint test build
+    plugins:
+      - secrets:
+          variables:
+            GRAPHQL_API_TOKEN: GRAPHQL_API_TOKEN
+      - praneetloke/nx-set-shas-buildkite-plugin
