@@ -1,4 +1,5 @@
 steps:
   - label: ":nx: Run many"
     command: |
+      npm install
       npx nx run-many -t lint test build
