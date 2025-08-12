@@ -9,6 +9,8 @@ const swcJestConfig = JSON.parse(
 // Disable .swcrc look-up by SWC core because we're passing in swcJestConfig ourselves
 swcJestConfig.swcrc = false;
 
+console.log("im in ur other proj");
+
 export default {
   displayName: '@my-nx-workspace/my-nx-workspace-e2e',
   preset: '../../jest.preset.js',
