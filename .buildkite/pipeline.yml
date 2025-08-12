@@ -1,5 +1,5 @@
 steps:
-  - label: ":nx: Run many"
+  - label: ":nx: Run affected targets"
     command: |
       npm install
       npx nx affected -t lint build test
