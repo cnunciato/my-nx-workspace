@@ -7,4 +7,4 @@ steps:
       - secrets:
           variables:
             GRAPHQL_API_TOKEN: GRAPHQL_API_TOKEN
-      - praneetloke/nx-set-shas-buildkite-plugin
+      - praneetloke/nx-set-shas-buildkite-plugin#main
